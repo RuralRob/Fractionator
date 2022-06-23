@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fractionator", "Fractionator\Fractionator.csproj", "{535EB131-52AE-4415-92A1-7062899672AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fraction", "Fraction\Fraction.csproj", "{0A654A0C-910C-4A1A-8503-D751EDB8AA2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{AAD2984B-96E7-462D-8223-F144450E1B7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535EB131-52AE-4415-92A1-7062899672AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535EB131-52AE-4415-92A1-7062899672AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535EB131-52AE-4415-92A1-7062899672AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535EB131-52AE-4415-92A1-7062899672AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A654A0C-910C-4A1A-8503-D751EDB8AA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A654A0C-910C-4A1A-8503-D751EDB8AA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A654A0C-910C-4A1A-8503-D751EDB8AA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A654A0C-910C-4A1A-8503-D751EDB8AA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD2984B-96E7-462D-8223-F144450E1B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD2984B-96E7-462D-8223-F144450E1B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD2984B-96E7-462D-8223-F144450E1B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD2984B-96E7-462D-8223-F144450E1B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAE91CB2-03F2-4E1E-A089-E456E54390C9}
+	EndGlobalSection
+EndGlobal
