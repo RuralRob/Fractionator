@@ -23,6 +23,12 @@ namespace Fractionator
             string lastOperator = null;
             bool error = false;
 
+            // Catch empty expression (just return empty response).
+            if (string.IsNullOrWhiteSpace(expression))
+            {
+                return string.Empty;
+            }
+
             // Loop through the whitespace-delimited elements of the expression.
             foreach (string element in expression.Split().Where(x => x != string.Empty))
             {
